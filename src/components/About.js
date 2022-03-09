@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import javascriptIcon from "@iconify/icons-logos/javascript";
+import nodejsIcon from "@iconify/icons-logos/nodejs";
+import pythonIcon from "@iconify/icons-logos/python";
+import linuxIcon from "@iconify/icons-logos/linux-tux";
+import gnuIcon from "@iconify/icons-logos/gnu";
 
 class About extends Component {
   render() {
@@ -31,16 +33,24 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={javascriptIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={nodejsIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={pythonIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={linuxIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={gnuIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
